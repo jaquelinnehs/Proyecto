@@ -4,19 +4,19 @@ public class Ejercicio_1 {
 
     public static void main(String[] args) {
         double x1, y1, x2, y2, m, b, x, y0, x3;
-        Scanner scanner = new Scanner(System.in);
+        Scanner va = new Scanner(System.in);
         
         System.out.println("Ingrese valor de x1");
-        x1 = scanner.nextDouble();
+        x1 = va.nextDouble();
         
         System.out.println("Ingrese valor de y1");
-        y1 = scanner.nextDouble();
+        y1 = va.nextDouble();
         
         System.out.println("Ingrese valor de x2");
-        x2 = scanner.nextDouble();
+        x2 = va.nextDouble();
         
         System.out.println("Ingrese valor de y2");
-        y2 = scanner.nextDouble();
+        y2 = va.nextDouble();
         
         m = (y2 - y1) / (x2 - x1);
         
@@ -35,7 +35,7 @@ public class Ejercicio_1 {
         System.out.println("y = " + m + "x + " + b);
         
         System.out.println("Ingrese un valor para x");
-        x = scanner.nextDouble();
+        x = va.nextDouble();
         
         y0 = (m * x) + b;
         System.out.println("El resultado es: " + y0);
